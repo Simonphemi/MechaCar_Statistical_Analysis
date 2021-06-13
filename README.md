@@ -10,16 +10,18 @@ Linear Regression to Predict MPG In this activity we used multiple regression to
 From our regression analysis, we can deduce the following:
 
 Vehicle length, ground clearance are provide non-random amount of variance in the dataset which means these variables are significant in terms of their impact on mpg. There are other significant factors which have not been included in the model which is evidenced by the fact that the intercept is also significant. The p-value of this linear model is 5.35e-11, which is smaller than the assumed significance level of 0.05%. Therefore,it can be stated that there is sufficient evidence to reject our null hypothesis, which means that the slope of this linear model is not zero. The Multiple R squared value is 0.7149 which means the model can predict mpg with an accruacy of 71%. This shows the model is an effective model. Summary Statistics on Suspension Coils The summary statistics for Suspension Coils contains production data from multiple production lots. We have created a summary for the overall production lots. A screenshot is provided below:
-
+<img width="626" alt="linear_Regression_table" src="https://user-images.githubusercontent.com/79813670/121824847-057d2d00-cc7d-11eb-8a98-d337a093510f.png">
 
 ## Summary Statistics on Suspension Coils
 We have also calculated summary statistics for the individual lots. The screenshot is provided below.
 
 from the summery data, we can see that the mean and medians are very close which suggests that the data does not have any skewness and the data is normally distributed. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. As per the above statistics, the variance is about 62 pounds per inch which is below the specified value. However one of the lots have a variance of over 170. Therefore, the current manufacturing data meets this design specification for all manufacturing lots in total but not each lot individually. T-Tests on Suspension Coils For this section, we ran T-tests for the overall manufacturing data and also T-tests for individual lots. The purpose of the test was to compare the population mean of 1500 with the same means to determine if they were statistically different from the population. The results of the T-tests are provided below:
-
+<img width="503" alt="lot_Summary" src="https://user-images.githubusercontent.com/79813670/121824870-437a5100-cc7d-11eb-92ea-f4f7fc0066f6.png">
+<img width="342" alt="Total_Summary" src="https://user-images.githubusercontent.com/79813670/121824877-52f99a00-cc7d-11eb-9ae9-e652405013f9.png">
 
 ## T-Tests on Suspension Coils,
 all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+<img width="330" alt="T_test" src="https://user-images.githubusercontent.com/79813670/121824893-660c6a00-cc7d-11eb-9688-e9d2ac0ecbd1.png">
 
 ## Study Design: MechaCar vs Competition.
 Overall production:
